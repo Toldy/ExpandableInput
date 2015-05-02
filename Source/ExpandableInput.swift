@@ -13,7 +13,7 @@ protocol ExpandableInputDelegate {
 }
 
 @IBDesignable
-class ExpandableInput: UIView {
+class ExpandableInputView: UIView {
   
   // MARK: - IBInspectable
   
