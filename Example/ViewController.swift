@@ -11,9 +11,11 @@ import UIKit
 class ViewController: UIViewController {
 
   @IBOutlet weak var expandableInputView: ExpandableInputView!
+
   override func viewDidLoad() {
     super.viewDidLoad()
     expandableInputView.delegate = self
+//    expandableInputView.
     // Do any additional setup after loading the view, typically from a nib.
   }
 
